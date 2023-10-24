@@ -52,26 +52,26 @@ export default class FirstVisitIndexPage extends Page {
                                             ),
                                             m('ul', { className: 'timeline' }, [
                                                 m('li', { className: 'event' }, [
-                                                    m('h3',
+                                                    m('h2',
                                                         { id: 'generalRules' },
                                                         app.translator.trans('first-visit-indexpage.forum.general-rules')
                                                     ),
                                                     m('p', app.translator.trans('first-visit-indexpage.forum.general-rules-text')),
                                                 ]),
                                                 m('li', { className: 'event' }, [
-                                                    m('h3', { id: 'posting' }, app.translator.trans('first-visit-indexpage.forum.posting-rules')),
+                                                    m('h2', { id: 'posting' }, app.translator.trans('first-visit-indexpage.forum.posting-rules')),
                                                     m('p', app.translator.trans('first-visit-indexpage.forum.posting-rules-text')),
                                                 ]),
                                                 m('li', { className: 'event' }, [
-                                                    m('h3', { id: 'spam' }, app.translator.trans('first-visit-indexpage.forum.spam')),
+                                                    m('h2', { id: 'spam' }, app.translator.trans('first-visit-indexpage.forum.spam')),
                                                     m('p', app.translator.trans('first-visit-indexpage.forum.spam-text')),
                                                 ]),
                                                 m('li', { className: 'event' }, [
-                                                    m('h3', { id: 'copyright' }, app.translator.trans('first-visit-indexpage.forum.copyright')),
+                                                    m('h2', { id: 'copyright' }, app.translator.trans('first-visit-indexpage.forum.copyright')),
                                                     m('p', app.translator.trans('first-visit-indexpage.forum.copyright-text')),
                                                 ]),
                                                 m('li', { className: 'event' }, [
-                                                    m('h3', { id: 'break' }, app.translator.trans('first-visit-indexpage.forum.rule-break')),
+                                                    m('h2', { id: 'break' }, app.translator.trans('first-visit-indexpage.forum.rule-break')),
                                                     m('p', app.translator.trans('first-visit-indexpage.forum.rule-break-text')),
                                                 ]),
                                             ]),
